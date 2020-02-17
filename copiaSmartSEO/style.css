@@ -1,0 +1,117 @@
+*{ margin:0;
+padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 5% 10% 1fr auto 4% auto 4% auto 4% auto 4% auto 4%; 
+    background-size: 100%;
+    background-position-y: -130px;
+    align-items: center;
+    justify-items: center;
+    border-bottom: 1px solid grey;
+    z-index: 1;
+}
+
+header img {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    width: 100%;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;   
+}
+
+.item1 {
+    grid-row: 1/2;
+    grid-column: 4/5;
+}
+
+.item2 {
+    grid-column: 6/7;
+    grid-row: 1/2;
+}
+
+.item3 {
+    grid-column: 8/9;
+    grid-row: 1/2;
+}
+
+.item4 {
+    grid-column: 10/11;
+    grid-row: 1/2;
+}
+
+.item5 {
+    grid-row: 1/2;
+    grid-column: 12/13;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 250px auto auto auto;
+    grid-template-columns: 1fr;
+}
+
+.titulo {
+    display: grid;
+    grid-template-columns: 5% auto 1fr;
+    grid-template-rows: 50px 60px 70px 50px 70px;
+    background-image: url(img/Background\ image_edited.png);
+    background-position-y: -120px;
+    margin-top: -50px;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    z-index: -1;
+}
+
+.titulo h2 {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    color: white;
+    font-size: 6vh;
+
+}
+.titulo p {
+    grid-row: 4/5;
+    grid-column: 2/3;
+    color: white;
+    font-size: 5.4vh;
+    font-weight: 100;
+}
+
+.rectGris {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    background-color: rgb(230, 228, 228);
+    display: grid;
+    grid-template-rows: 10px 60px 10px;
+    grid-template-columns: 1fr auto 5% auto 1fr;
+    align-items: center;
+    justify-items: center;
+    word-spacing: 4px;
+}
+
+.rectGris p {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    font-size: 24px;
+    color: rgb(104, 104, 104);
+}
+
+.rectGris button{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    width: 170px;
+    height: 40px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bolder;
+    background: linear-gradient(to left, rgb(236, 194, 5), rgb(255, 115, 0));
+    border: transparent;
+}
+

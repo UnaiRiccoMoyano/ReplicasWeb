@@ -1,0 +1,141 @@
+* { 
+    padding: 0;
+    margin: 0;
+}
+
+
+header { 
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns:5% 1fr 1fr 5%;   
+    z-index: 1;
+}
+
+header img { 
+    width: 20%;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    z-index: 1;
+    margin-top: 50px
+}
+
+
+.navegador {
+    margin-top: 80px;
+    margin-left: 100px;
+    grid-row: 1/2;
+    grid-column: 3/4;
+    display: inline-block;
+}
+
+li { 
+    float: left;
+    list-style: none;
+}
+
+header button {
+    height: 40px;
+    width: 80px;
+    border: 0px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+
+
+h1 {
+    color: white;
+}
+
+main { 
+    margin-top: -150px;
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 5%;
+    grid-template-rows: 150px 100px 100px 50px 20px 20px 130px;
+}
+
+#principal { 
+    grid-row: 3/4;
+    grid-column: 2/3;
+    z-index: 2;
+}
+
+.botonMenu {
+    grid-row: 5/7;
+    grid-column: 2/3;
+    z-index: 2;
+}
+
+.botonMenu button {
+    width: 140px;
+    height: 35px;
+    border-radius: 30px;
+    border: 4px solid rgb(61, 57, 57);
+
+}
+
+.fondo1{
+    width: 760px; 
+	height: 0px;
+	border-right: 80px solid transparent;
+    border-bottom: 595px solid #DB5461;
+    margin-left: -100px;
+    z-index: 0;
+    margin-top: -25px;
+}
+.fondo2 {
+    background-image: url(img/background_header.jpg);
+    background-size: 140%;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    grid-column: 3/5;
+    grid-row: 1/8;
+    z-index: -1;
+    margin-left: -70px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 5% 17% 10% 5% 17% 10% 5% 17% 1fr ;
+    grid-template-rows: 45px 60px 45px;
+    background-color: #30343F;
+    align-items: center;
+    justify-items: center;
+    color: white;
+}
+
+footer p {
+   font-weight: -1000;
+}
+
+.img1 {
+    width: 100%;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.text1 { 
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+.img2 {
+    width: 100%;
+    grid-row: 2/3;
+    grid-column: 5/6;}
+
+.text2 {
+    grid-row: 2/3;
+    grid-column: 6/7;
+}
+
+.img3 {
+    width: 100%;
+    grid-row: 2/3;
+    grid-column: 8/9;
+}
+
+.text3 {
+    grid-row: 2/3;
+    grid-column: 9/10;
+}
