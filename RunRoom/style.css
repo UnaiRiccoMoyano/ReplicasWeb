@@ -27,7 +27,7 @@
 
 .principal {
     margin: 0;
-    background-image: url(inicio.jpeg);
+    background-image: url(./img/inicio.jpeg);
     background-size: cover;
     display: grid;
     background-position-y: -59px;
@@ -241,7 +241,7 @@
 }
 
 .itemSecundario1 {
-    background-image: url(calvo.jpeg) ;
+    background-image: url(img/verde.jpeg) ;
     background-size: cover;
     background-position-x: -370px;
     grid-column: 2/3;
@@ -256,21 +256,21 @@
 .itemsecundario1:hover {  }
 
 .itemSecundario2 {
-    background-image: url(asul.jpeg) ;
+    background-image: url(img/azul.jpeg) ;
     background-size: cover;
     grid-column: 3/ 4;
     grid-row: 2/3;
 }
 
 .itemSecundario3 {
-    background-image: url(Calle.jpeg) ;
+    background-image: url(img/calle.jpeg) ;
     background-size: cover;
     grid-column: 3/ 4;
     grid-row: 3/4;
 }
 
 .itemSecundario4 {
-    background-image: url(pareja.jpeg) ;
+    background-image: url(img/pareja.jpeg) ;
     background-size: cover;
     grid-column: 2/4;
     grid-row: 4/5;
